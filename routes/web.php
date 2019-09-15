@@ -27,3 +27,6 @@ Route::get('/zzzz',function(){
 Route::get('/zzzzzzz',function(){
 	return "zzzzzzzz";
 });
+Route::get('testthoi',function(){
+	return "no thing";
+});

@@ -21,12 +21,3 @@ Route::get('/test',function(){
 Route::get('/demo',function(){
 	return "hello-Demo";
 });
-Route::get('/zzzz',function(){
-	return "zzzzz";
-});
-Route::get('/zzzzzzz',function(){
-	return "zzzzzzzz";
-});
-Route::get('testthoi',function(){
-	return "no thing";
-});

@@ -1,5 +1,4 @@
 <?php
-
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -10,20 +9,21 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-
 Route::get('/', function () {
     return view('welcome');
 });
 Route::get('/hello',function(){
 	return "hello world";
 });
-
-
 Route::get('/test',function(){
 	return "test";
 });
-
 Route::get('/demo',function(){
 	return "hello-Demo";
 });
+
+Route::get('/zzzz',function(){
+	return "zzzzz";
+});
+
 
